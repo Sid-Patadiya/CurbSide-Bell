@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "CurbsideBell",
+    "slug": "curbside-bell-test",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "owner": "hiren-dudhat",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6CBD45"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eveltapps.CurbsideBellDev",
+      "autoIncrement": true,
+      "buildNumber": "1",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "useNextNotificationsApi": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#6CBD45"
+      },
+      "package": "com.eveltapps.CurbsideBellDev",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "62e45f30-ea78-482c-ac28-a89eca7b692d"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
